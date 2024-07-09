@@ -7,14 +7,12 @@ body{
     background-color: #ccc;
 }
 
-.lolu{
+.min_container{
     max-width: 600px;
     margin: 20px auto;
     background-color: white;
     border-radius: 5px;
     box-shadow:4px 3px 5px rgba(1, 1, 1, 0.1);
-
-
 }
 
 .headline{
@@ -26,10 +24,10 @@ body{
     font-size: 10px;
 }
 .submit_button{
-    padding-left: 89%;
-    padding-bottom: 10px;
+ display: flex;
+ justify-content: end;
+ padding:20px ;
 }
-
 
 .form_container{
     padding: 20px;
